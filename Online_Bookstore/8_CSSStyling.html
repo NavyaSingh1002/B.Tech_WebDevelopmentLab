@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS Styling</title>
+    <style>
+        h1 {
+            font-family: Arial, sans-serif;
+            color: #004080;
+            text-align: center;
+        }
+
+        .custom-style {
+            font-family: "Courier New";
+            color: #ac1712;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        #text {
+            font-family: "Times New Roman", Times, serif;
+            color: #333333;
+            font-style: italic;
+        }
+
+        body {
+            background-image: url('background.jpg'); 
+            background-color: #f0f8ff; 
+            background-size: cover; 
+        }
+
+        .box {
+            background-image: url('element-background.jpg');
+            background-color: #ffffff;
+            border: 2px solid black;
+            padding: 30px;
+            margin: 50px auto;
+            width: 70%;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <h1>CSS Styling Experiment</h1>
+        <p class="custom-style">
+            This sentence uses a Class Selector. It changes the font to Courier New, makes it bold, and colors it red.
+        </p>
+        <p id="text">
+            This sentence uses an ID Selector. It changes the font to Times New Roman, makes it italic, and colors it dark gray.
+        </p>
+    </div>
+</body>
+</html>
