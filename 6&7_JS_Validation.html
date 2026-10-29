@@ -10,7 +10,6 @@
         .box {
             width: 400px;
             margin: auto;
-            padding-top: 20px;
         }
     </style>
     <script>
@@ -55,15 +54,27 @@
     <div class="box">
         <h1>Registration Form</h1>
         <form onsubmit="return validateForm()">
-            Name: <input type="text" id="userName">
-            <br><br>
-            Password: <input type="password" id="userPassword">
-            <br><br>
-            E-mail ID:  <input type="text" id="userEmail">
-            <br><br>
-            Phone Number: <input type="text" id="userPhone">
-            <br><br>
-            <input type="submit" value="Register">
+            <table cellspacing="8">
+                <tr>
+                    <td align="right">Name: </td>
+                    <td><input type="text" id="userName"></td>
+                </tr>
+               <tr>
+                    <td align="right">Password: </td>
+                    <td><input type="password" id="userPassword"></td>
+                </tr>
+                <tr>
+                    <td align="right">E-mail ID: </td>
+                    <td><input type="text" id="userEmail"></td>
+                </tr>
+                <tr>
+                    <td align="right">Phone Number: </td>
+                    <td><input type="text" id="userPhone"></td>
+                </tr>
+                <tr>
+                    <td align="center" colspan="2"><input type="submit" value="Register"></td>
+                </tr>
+            </table>
         </form>
     </div>
 </body>
